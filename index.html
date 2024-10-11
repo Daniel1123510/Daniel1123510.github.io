@@ -3,31 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Info Table</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 50%;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 5px;
-            text-align: left;
-        }
-    </style>
+    <title>Form Example</title>
 </head>
 <body>
 
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Student ID</th>
-        </tr>
-        <tr>
-            <td>黃宇安</td>
-            <td>1123510</td>
-        </tr>
-    </table>
+    <form id="myForm">
+        <label for="input1">First name:</label>
+        <input type="text" id="input1" name="input1" value="Your first name"><br><br>
+
+        <label for="input2">Last name:</label>
+        <input type="text" id="input2" name="input2" value="Your last name"><br><br>
+
+        <label for="input3">Student ID:</label>
+        <input type="text" id="input3" name="input3" value="Your student ID"><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
 
 </body>
 </html>
